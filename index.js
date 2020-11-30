@@ -26,6 +26,7 @@ $(".btn").click(function (){
       $("h1").html("Game Over!! Press any key to restart");
       var over = 0;
       game=[];
+      user=[];
     };
   };
   if (user.length==game.length && over==1){
